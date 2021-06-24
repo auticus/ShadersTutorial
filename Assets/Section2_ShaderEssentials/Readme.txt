@@ -83,4 +83,10 @@ Vector - four float values together
 Range - a range of values
 3D - a 3d image you can do in code - to perform 3d color correction
 
+Texture Tiling
+==============
+1 by 1 tiling is a 1 for one, 1 copy of the texture
+increasing the size of tiling, if you want 4 squares of texture, you'd make it 2x2... four copies wrapped around.
+
+Offset moves the starting location of the UV
 
